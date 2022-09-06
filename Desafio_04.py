@@ -1,6 +1,5 @@
-from curses.ascii import isalnum
-
-
+t = str(" Desafio 04 ")
+print(f"{t:=^20}")
 n = input('Digite algo: ')
 print('O tipo primitivo é ', type(n))
 print('Só tem espaços: ', n.isspace())

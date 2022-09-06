@@ -1,0 +1,5 @@
+t = str(" Desafio 12 ")
+print(f"{t:=^20}")
+p = float(input("Digite o valor real do produto: R$ "))
+d = float(input("Quantos porcentos de desconto? "))
+print(f"O valor original do produto é R$ {p:.2f} e com o desconte de {d}%, ficará R$ {p-((d/100)*p)}!")

@@ -1,0 +1,5 @@
+t = str(" Desafio 13 ")
+print(f"{t:=^20}")
+s = float(input("Digite o salário atual do funcionário: R$ "))
+a = float(input("Digite a porcentagem de aumento salarial: "))
+print(f"Após o aumento de {a}%, o salário de R$ {s} passará a ser de R$ {s+((a/100)*s):.2f}!")
