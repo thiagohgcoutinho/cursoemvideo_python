@@ -1,0 +1,5 @@
+t = str(" Desafio 15 ")
+print(f"{t:=^20}")
+km = float(input("Quantos KM pecorreu no aluguel do carro? "))
+d = float(input("Quantos dias foi o aluguel? "))
+print(f"O valor total a se pagar pelo aluguel do carro que pecorreu {km} km por um período de {d:.0f} dias será de R$ {(km*0.15 + d*60):.2f}!")
