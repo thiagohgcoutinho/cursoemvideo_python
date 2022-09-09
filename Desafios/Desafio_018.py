@@ -1,0 +1,10 @@
+import math
+t = (" Desafio 18 ")
+print(f"{t:=^20}")
+n = float(input("Digite o ângulo em graus: "))
+sen = math.sin(math.radians(n))
+cos = math.cos(math.radians(n))
+tg = math.tan(math.radians(n))
+print(f"Para o ângulo de {n}, o SENO é {sen:.2f}!")
+print(f"Para o ângulo de {n}, o COSSENO é {cos:.2f}!")
+print(f"Para o ângulo de {n}, a TANGENTE é {tg:.2f}!")
