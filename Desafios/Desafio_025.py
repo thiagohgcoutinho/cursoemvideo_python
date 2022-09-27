@@ -1,4 +1,7 @@
 t = (" Desafio 25 ")
 print(f"{t:=^20}")
-nome = input("Digite seu nome completo: ")
-print("Silva" in nome)
+nome = str(input("Digite seu nome completo: ")).strip()
+if "Silva" in nome:
+    print("Seu nome possui Silva.")
+else:
+    print("Seu nome não possui Silva.")
